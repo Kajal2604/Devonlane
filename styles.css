@@ -1,0 +1,48 @@
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .phone{
+    word-spacing: 30px; 
+  }
+  .b{
+    background-color:white;
+  }
+  .right {
+    position: initial;
+    background-color: rgb(162, 202, 206);
+    padding: 20px;
+  
+  }
+  .left {
+    position: initial;
+    background-color: rgb(126, 219, 231);
+    padding: 20px;
+  
+  }
+  body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-indent: 5px;
+    line-height: 1.8;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+  }
